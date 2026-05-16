@@ -1,0 +1,14 @@
+C:\Users\NM162673\C#Learning\bin\Debug\net10.0\C#Learning.exe
+C:\Users\NM162673\C#Learning\bin\Debug\net10.0\C#Learning.deps.json
+C:\Users\NM162673\C#Learning\bin\Debug\net10.0\C#Learning.runtimeconfig.json
+C:\Users\NM162673\C#Learning\bin\Debug\net10.0\C#Learning.dll
+C:\Users\NM162673\C#Learning\bin\Debug\net10.0\C#Learning.pdb
+C:\Users\NM162673\C#Learning\obj\Debug\net10.0\C#Learning.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NM162673\C#Learning\obj\Debug\net10.0\C#Learning.AssemblyInfoInputs.cache
+C:\Users\NM162673\C#Learning\obj\Debug\net10.0\C#Learning.AssemblyInfo.cs
+C:\Users\NM162673\C#Learning\obj\Debug\net10.0\C#Learning.csproj.CoreCompileInputs.cache
+C:\Users\NM162673\C#Learning\obj\Debug\net10.0\C#Learning.dll
+C:\Users\NM162673\C#Learning\obj\Debug\net10.0\refint\C#Learning.dll
+C:\Users\NM162673\C#Learning\obj\Debug\net10.0\C#Learning.pdb
+C:\Users\NM162673\C#Learning\obj\Debug\net10.0\C#Learning.genruntimeconfig.cache
+C:\Users\NM162673\C#Learning\obj\Debug\net10.0\ref\C#Learning.dll
