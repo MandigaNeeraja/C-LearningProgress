@@ -10,7 +10,9 @@
 
 using System;
 using C_Learning.lists;
+using C_Learning.methods;
 using C_Learning.strings;
+using Control;
 
 namespace Program
 {
@@ -27,6 +29,20 @@ namespace Program
             //Creating an object of the ProgramLists class
             // ProgramLists programlist=new ProgramLists();
             // programlist.ListMethods();
+
+
+            //Creating object for Control Flow
+            // ProgramControlFlow p1=new ProgramControlFlow();
+            // p1.ControlFlowMethods();
+
+            //Creating object for Methods
+            ProgramMethods p2=new ProgramMethods();
+            p2.PrintName();
+            p2.Greet("Neeraja");
+            Console.WriteLine(p2.Add(2,3)); // Output: 5
+            p2.Greet();
+
+
         }
     }
 }
