@@ -9,7 +9,8 @@
 
 
 using System;
-using strings;
+using C_Learning.lists;
+using C_Learning.strings;
 
 namespace Program
 {
@@ -19,8 +20,13 @@ namespace Program
         {
             Console.WriteLine("Hello World!");
             //Creating an object of the ProgramStrings class
-            ProgramStrings programStrings = new ProgramStrings();
-            programStrings.PrintName();
+            // ProgramStrings programStrings = new ProgramStrings();
+            // programStrings.PrintName();
+
+
+            //Creating an object of the ProgramLists class
+            // ProgramLists programlist=new ProgramLists();
+            // programlist.ListMethods();
         }
     }
 }

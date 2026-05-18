@@ -1,6 +1,6 @@
 using System;
 
-namespace strings
+namespace C_Learning.strings
 {
     class ProgramStrings
     {
