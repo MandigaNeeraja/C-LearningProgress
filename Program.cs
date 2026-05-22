@@ -36,13 +36,21 @@ namespace Program
             // p1.ControlFlowMethods();
 
             //Creating object for Methods
-            ProgramMethods p2=new ProgramMethods();
-            p2.PrintName();
-            p2.Greet("Neeraja");
-            Console.WriteLine(p2.Add(2,3)); // Output: 5
-            p2.Greet();
-
-
+            // ProgramMethods p2=new ProgramMethods();
+            // p2.PrintName();
+            // p2.Greet("Neeraja");
+            // Console.WriteLine(p2.Add(2,3)); // Output: 5
+            // p2.Greet();
+            
+            //Creating object for Collections
+            // Collections.Collect collect=new Collections.Collect();
+            // Console.WriteLine("Collections in C#:");
+            // collect.meth();
+              
+            //Creating object for Generics
+            Collections.generics<int> gen1 = new Collections.generics<int>();
+            gen1.Value = 42;
+            gen1.Display();
         }
     }
 }
