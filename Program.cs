@@ -13,6 +13,7 @@ using C_Learning.lists;
 using C_Learning.methods;
 using C_Learning.strings;
 using Control;
+using LINQ;
 
 namespace Program
 {
@@ -48,9 +49,25 @@ namespace Program
             // collect.meth();
               
             //Creating object for Generics
-            Collections.generics<int> gen1 = new Collections.generics<int>();
-            gen1.Value = 42;
-            gen1.Display();
+            // Collections.generics<int> gen1 = new Collections.generics<int>();
+            // gen1.Value = 42;
+            // gen1.Display();
+            Collections.generics<string> gen2 = new Collections.generics<string>();
+            gen2.Value = "Hello, Generics!";
+            gen2.Display();
+
+
+            //creating object for LINQ
+            LINQExamples l=new LINQExamples();
+            l.Example();
+
+
+            //calling collections.delegates
+            Collections.DelegateExample d=new Collections.DelegateExample();
+            Collections.MyDelegate del1 = d.Method1;
+            Collections.MyDelegate del2 = d.Method2;
+            del1(); // Output: Method1 called
+            del2(); // Output: Method2 called
         }
     }
 }
