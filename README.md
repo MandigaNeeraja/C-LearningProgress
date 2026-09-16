@@ -2,6 +2,13 @@
 
 A hands-on C# learning repository built on **.NET 10.0**. Each folder covers a core language concept with runnable examples you can explore, uncomment, and extend.
 
+### Documentation
+
+| Resource | Description |
+|----------|-------------|
+| [docs/](docs/README.md) | Detailed topic-by-topic guides (11 chapters) |
+| [CONCEPTS.md](CONCEPTS.md) | One-page cheat sheet of all concepts |
+
 ---
 
 ## Table of Contents
@@ -47,6 +54,11 @@ The entry point is `Program.cs`. Uncomment the example you want to run in `Main`
 
 ```
 C#Learning/
+├── README.md                           # Project overview (this file)
+├── CONCEPTS.md                         # Quick reference cheat sheet
+├── docs/                               # Detailed topic documentation
+│   ├── README.md                       # Docs index
+│   ├── 01-fundamentals.md … 11-linq.md
 ├── Program.cs                          # Main entry point
 ├── C#Learning.csproj                   # Project configuration
 ├── Arrays/arr.cs                       # Array basics
@@ -69,6 +81,8 @@ C#Learning/
 ---
 
 ## C# Fundamentals
+
+> Full guide: [docs/01-fundamentals.md](docs/01-fundamentals.md)
 
 | Term | Description |
 |------|-------------|
@@ -106,6 +120,8 @@ namespace Program
 ---
 
 ## Arrays
+
+> Full guide: [docs/02-arrays.md](docs/02-arrays.md)
 
 **Location:** `Arrays/arr.cs`
 
@@ -151,6 +167,8 @@ Array.Sort(numbers);
 
 ## Strings
 
+> Full guide: [docs/03-strings.md](docs/03-strings.md)
+
 **Location:** `Strings/string.cs`
 
 A **string** is a sequence of characters. Strings are **reference types** and **immutable** — any operation that appears to change a string actually creates a new one.
@@ -192,6 +210,8 @@ string greeting = $"Hello, {name}!";
 
 ## Lists
 
+> Full guide: [docs/04-lists.md](docs/04-lists.md)
+
 **Location:** `Lists/list.cs`
 
 A **List\<T\>** is a dynamic collection from `System.Collections.Generic`. Unlike arrays, lists can grow and shrink at runtime.
@@ -231,6 +251,8 @@ foreach (int number in numbers)
 ---
 
 ## Control Flow
+
+> Full guide: [docs/05-control-flow.md](docs/05-control-flow.md)
 
 **Location:** `ControlFlow/CF.cs`
 
@@ -317,6 +339,8 @@ do
 
 ## Methods
 
+> Full guide: [docs/06-methods.md](docs/06-methods.md)
+
 **Location:** `Methods/meth.cs`
 
 A **method** is a reusable block of code that performs a specific task.
@@ -378,6 +402,8 @@ Console.WriteLine(p.Add(2, 3)); // 5
 ---
 
 ## Object-Oriented Programming (OOP)
+
+> Full guide: [docs/07-oop.md](docs/07-oop.md)
 
 **Locations:** `OOPs/oop.cs`, `OOPs/StudentModel.cs`, `OOPs/StudentService.cs`
 
@@ -516,6 +542,8 @@ To try it, uncomment the code in `pp.cs` and set it as the startup project entry
 
 ## Collections
 
+> Full guide: [docs/08-collections.md](docs/08-collections.md)
+
 **Location:** `Collections/Collect.cs`
 
 The .NET **Collections** namespace provides data structures for storing groups of objects.
@@ -589,6 +617,8 @@ books.Pop(); // removes "Data Structures"
 
 ## Generics
 
+> Full guide: [docs/09-generics.md](docs/09-generics.md)
+
 **Location:** `Collections/Generics.cs`
 
 **Generics** let you write type-safe code that works with any data type, without boxing/unboxing or casting.
@@ -639,6 +669,8 @@ gen2.Display(); // Value: Hello, Generics!
 ---
 
 ## Delegates
+
+> Full guide: [docs/10-delegates.md](docs/10-delegates.md)
 
 **Location:** `Delegates/Delegate.cs`
 
@@ -698,6 +730,8 @@ Console.WriteLine(add(2, 3)); // 5
 ---
 
 ## LINQ (Language Integrated Query)
+
+> Full guide: [docs/11-linq.md](docs/11-linq.md)
 
 **Location:** `LINQ(Language Integrated Query)/linq.cs`
 
